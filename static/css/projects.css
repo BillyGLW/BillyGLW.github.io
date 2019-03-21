@@ -16,73 +16,64 @@
     color: white;
 }
 
-/* iips-app */
+/* python-http */
 
-.card-iips-app {
-    background-color: #125c9c;
+.python-http {
+    background-color: #3c67ad;
 }
-.card-iips-app:hover {
-    background-color: rgba(18, 92, 156, 0.6);
+.python-http:hover {
+    background-color: #3c5cad;
 }
-.card-iips-app .name {
+.v .name {
     color: #FFD53E;
 }
 
-/* gitoscope */
+/* python-keylogger */
 
-.card-gitoscope {
-    background-color: #f7e540;
+.python-keylogger {
+    background-color: #590b18;
 }
-.card-gitoscope:hover {
-    background-color: rgba(247, 229, 64, 0.6);
+.python-keylogger:hover {
+    background-color: #560614;
 }
-.card-gitoscope .name {
+.python-keylogger .name {
     color: #000;
 }
 
-/* sjdownloader */
+/* python-xmlrpc */
 
-.card-sjdl {
-    background-color: #00a2e8;
+.python-xmlrpc {
+    background-color: #965028;
 }
-.card-sjdl:hover {
-    background-color: rgba(0, 162, 232, 0.6);
+.python-xmlrpc:hover {
+    background-color: #773c1a;
 }
 
-/* drop to slack */
+/* python-django */
 
-.card-slack {
-    background-color: #d91852;
+.python-django {
+    background-color: #18420b;
 }
-.card-slack:hover {
-    background-color: rgba(217, 24, 82, 0.6);
+.python-django:hover {
+    background-color: #20590e;
 }
-.card-slack .name {
+.python-django .name {
     color: black;
 }
 
-/* cryptanalyzer */
+/* c-web-parser */
 
-.card-crypt {
-    background-color: rgba(85, 85, 85, 0.8);
+.c-web-parser {
+    background-color: #273135;
 }
-.card-crypt:hover {
-    background-color: rgba(85, 85, 85, 0.6);
+.c-web-parser:hover {
+    background-color: #27383f;
 }
-.card-crypt .name {
+.c-web-parser .name {
     color: #125c9c;
 }
 
-/* py-google-auth */
-.card-py-google {
-    background-color: #FBBC05;
-}
-.card-py-google:hover {
-    background-color: #FFD53E;
-}
-.card-py-google .name {
-    color: #4285F4;
-}
+
 .open-source > div{
     background-color: #04B4AE;
     margin: 10px 5px;
