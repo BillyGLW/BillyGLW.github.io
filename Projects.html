@@ -1,0 +1,47 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<div class="home">
+    <div class="row">
+        <div class="col-md-12">
+	      <h1 class="page-heading project-heading">Implemented projects</h1>
+        </div>
+    </div>
+    <div class="row">
+        {% for project in site.projects %}
+        <div class="col-md-4 project-card {{ project.css-class }}">
+            <span> 
+
+                {% if project.liveurl %}
+                  <a class="name" href="{{ project.liveurl }}">{{ project.name }}</a>
+                {% else %}
+                  <span class="name">{{ project.name }}</span>
+                {% endif %}
+
+                <hr width=80%>
+                <a class="icon icon--github" href="{{ project.repo }}">
+                <svg viewBox="0 0 16 16">
+                </svg>
+                </a>
+
+                {% if project.gh-page %}
+                <a style="position:relative; top:4px;" href="{{ project.gh-page }}">
+                <span class="glyphicon glyphicon-link name"></span>
+                </a>
+                {% endif %}
+            </span>
+        </div>
+        {% endfor %}
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="row">
+      <div class="col-md-12">
+        {% include open-source.html %}
+      </div>
+    </div>
+</div>

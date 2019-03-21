@@ -1,0 +1,32 @@
+# Site settings
+title: Zyhu (BillyGLW)
+email: wojciechnowit@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is my personal blog.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://billyglw.github.io/" # the base hostname & protocol for your site
+twitter_username: zyhu
+github_username:  BillyGLW
+
+# Outputting
+permalink: date
+
+# Build settings
+markdown: kramdown
+
+#defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+#highlighting
+excerpt_separator: ""
+
+encoding: UTF-8
+
+collections:
+  - projects
